@@ -4,7 +4,7 @@ const openModal = () => document.getElementById('modal')
     .classList.add('active');
 
 const closeModal = () => {
-    clearFields()
+    clearFields();
     document.getElementById('modal').classList.remove('active');
 } 
 

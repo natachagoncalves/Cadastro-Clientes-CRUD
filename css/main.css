@@ -50,11 +50,10 @@ footer{
     font-weight: 200;
     font-style: italic;
     padding: 20px;
+    position: relative;
 }
 
-.copy {
-    display: none;
-}
+
 
 @media (max-width:788px){
     header{
@@ -75,13 +74,6 @@ footer{
         position: absolute;
         overflow-y: auto;
         height: calc(100vh - 70px);
-    }
-
-    .copy {
-        margin-top: 80px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
     }
 
 }
